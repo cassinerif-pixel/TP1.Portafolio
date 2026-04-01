@@ -1,0 +1,120 @@
+.contenedor {
+    max-width: 900px;
+    margin: auto;
+    padding: 80px 20px;
+}
+ 
+ 
+/* encabezado */
+ 
+.header-recorrido {
+    margin-bottom: 60px;
+}
+ 
+.header-recorrido h1 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+ 
+.header-recorrido span {
+    color: #d4af37;
+}
+ 
+.header-recorrido p {
+    color: #8ba094;
+    line-height: 1.6;
+}
+ 
+ 
+/* linea de tiempo */
+ 
+.timeline {
+    border-left: 3px solid #243b31;
+    padding-left: 30px;
+}
+ 
+body.claro .timeline {
+    border-color: #ccc;
+}
+ 
+.item {
+    margin-bottom: 50px;
+    position: relative;
+}
+ 
+/* circulo en la linea */
+.item::before {
+    content: "";
+    position: absolute;
+    left: -39px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background: #d4af37;
+    border-radius: 50%;
+}
+ 
+ 
+/* fecha */
+ 
+.fecha {
+    font-size: 0.9rem;
+    color: #d4af37;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+ 
+ 
+/* tarjeta de contenido */
+ 
+.contenido {
+    background: #16261f;
+    padding: 20px;
+    border: 1px solid #243b31;
+    transition: transform 0.3s, border-color 0.3s;
+}
+ 
+body.claro .contenido {
+    background: #f2eee8;
+    border-color: #ccc;
+}
+ 
+.contenido:hover {
+    transform: translateX(10px);
+    border-color: #d4af37;
+}
+ 
+.contenido h3 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+ 
+.contenido p {
+    color: #8ba094;
+    line-height: 1.6;
+}
+ 
+body.claro .contenido p {
+    color: #555;
+}
+ 
+ 
+/* link activo en el nav */
+ 
+.activo {
+    color: #d4af37 !important;
+}
+ 
+ 
+/* responsive */
+ 
+@media (max-width: 768px) {
+    .contenedor {
+        padding: 60px 10px;
+    }
+ 
+    .header-recorrido h1 {
+        font-size: 2rem;
+    }
+}
