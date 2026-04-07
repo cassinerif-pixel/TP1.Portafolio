@@ -17,7 +17,6 @@ body.claro {
 }
  
  
-/* navegacion */
  
 nav {
     display: flex;
@@ -61,7 +60,6 @@ body.claro .botonTema {
 }
  
  
-/* hero */
  
 .hero {
     height: 90vh;
@@ -133,8 +131,7 @@ body.claro .botonTema {
     color: #d4af37;
 }
  
- 
-/* secciones generales */
+
  
 section {
     padding: 70px 10%;
@@ -162,8 +159,6 @@ section h2 {
 }
  
  
-/* sobre mi */
- 
 .sobreMiGrid {
     display: flex;
     gap: 40px;
@@ -182,7 +177,6 @@ section h2 {
 }
  
  
-/* habilidades */
  
 .habilidadesGrid {
     display: grid;
@@ -200,8 +194,6 @@ body.claro .habilidad {
     border-color: #ccc;
 }
  
- 
-/* proyectos */
  
 .proyectosGrid {
     display: grid;
@@ -239,8 +231,6 @@ body.claro .proyecto {
     font-size: 0.95rem;
 }
  
- 
-/* contacto */
  
 form {
     display: flex;
@@ -288,8 +278,7 @@ form button:hover {
     background: #c09b28;
 }
  
- 
-/* footer */
+
  
 footer {
     text-align: center;
@@ -307,8 +296,7 @@ footer a:hover {
     text-decoration: underline;
 }
  
- 
-/* responsive */
+
  
 @media (max-width: 768px) {
  
