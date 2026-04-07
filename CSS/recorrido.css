@@ -5,7 +5,7 @@
 }
  
  
-/* encabezado */
+
  
 .header-recorrido {
     margin-bottom: 60px;
@@ -27,7 +27,6 @@
 }
  
  
-/* linea de tiempo */
  
 .timeline {
     border-left: 3px solid #243b31;
@@ -43,7 +42,7 @@ body.claro .timeline {
     position: relative;
 }
  
-/* circulo en la linea */
+
 .item::before {
     content: "";
     position: absolute;
@@ -56,8 +55,7 @@ body.claro .timeline {
 }
  
  
-/* fecha */
- 
+
 .fecha {
     font-size: 0.9rem;
     color: #d4af37;
@@ -100,14 +98,12 @@ body.claro .contenido p {
 }
  
  
-/* link activo en el nav */
  
 .activo {
     color: #d4af37 !important;
 }
  
  
-/* responsive */
  
 @media (max-width: 768px) {
     .contenedor {
